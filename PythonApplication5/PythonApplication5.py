@@ -11,7 +11,7 @@ for x in h.headers:
 print("**********")
 headers = {'User-Agent' : 'Mobile'}
 # Test it on an external site
-url2 = 'http://httpbin.org/headers'
+url2 = 'https://brickset.com/ses/year-2006'
 rh = requests.get(url2, headers=headers)
 print(rh.text)
 print("Status code:")
